@@ -96,10 +96,22 @@ h2 a:hover {
   z-index: 1;
 }
 
+@media screen and (max-width: 1400px){
+  .bottomcloud {
+    margin-top: 0px;
+    position: absolute;
+    z-index: 1;
+    margin-left: -702px;
+  }
+
+  .sidecloud {
+    top: -100px !important;
+  }
+
 @media screen and (max-width: 900px) {
   .bottomcloud {
-    margin-top: -100px;
-    left:-400px !important;
+    margin-top: 200px;
+    left: 0px !important;
   }
   .topcloud {
     margin-top: -500px;
@@ -109,6 +121,6 @@ h2 a:hover {
 
 @media screen and (max-width: 768px) {
   .bottomcloud {
-    margin-top: -100px;
+
   }
 }
