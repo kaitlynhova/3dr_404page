@@ -81,16 +81,6 @@ h2 a:hover {
   position: absolute;
   z-index: 2;
 }
-@media screen and (max-height: 600px) {
-  .topcloud {
-    margin-top: -900px;
-  }
-}
-@media screen and (max-height: 900px) {
-  .topcloud {
-    margin-top: -850px;
-  }
-}
 
 .bottomcloud {
   margin-top: 0px;
@@ -98,20 +88,20 @@ h2 a:hover {
   position: absolute;
   z-index: 1;
 }
-@media screen and (max-height: 600px) {
-  .bottomcloud {
-    margin-top: -100px;
-  }
-}
-@media screen and (max-height: 900px) {
-  .bottomcloud {
-    margin-top: 30px;
-  }
-}
 
 .sidecloud {
   top: 350px !important;
   left: -250px !important;
   position: absolute;
   z-index: 1;
+}
+
+
+@media screen and (max-height: 768px) {
+  .bottomcloud {
+    margin-top: -100px;
+  }
+  .topcloud {
+    margin-top: -900px;
+  }
 }
