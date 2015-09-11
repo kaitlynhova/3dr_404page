@@ -6,4 +6,4 @@ Includes:
 - Parallax effect
 - witty message
 
-[live link](https://store.3drobotics.com/404)
+[live link](http://kaitlynhova.github.io/3dr_404page/)
